@@ -1,0 +1,143 @@
+[28.576135635] 2018-04-23 10:20:23,232 - INFO - launcher: Starting sanity checks
+[28.576135635] 2018-04-23 10:20:23,232 - INFO - launcher: Checking for Python 3.5+
+[29.077529907] 2018-04-23 10:20:23,233 - INFO - launcher: Checking console encoding
+[29.077529907] 2018-04-23 10:20:23,233 - INFO - launcher: Setting console encoding to UTF-8
+[29.077529907] 2018-04-23 10:20:23,233 - INFO - launcher: Ensuring we're in the right environment
+[30.581712723] 2018-04-23 10:20:23,234 - INFO - launcher: Adding local bins/ folder to path
+[32.085657120] 2018-04-23 10:20:23,236 - INFO - launcher: Required checks passed.
+[32.586574554] 2018-04-23 10:20:23,236 - INFO - launcher: Optional checks passed.
+[32.586574554] 2018-04-23 10:20:23,236 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.9104213714599609] 2018-04-23 10:20:24,114 - WARNING - musicbot.config | In config.py::MainThread(2280), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.9109225273132324] 2018-04-23 10:20:24,115 - INFO - musicbot.config | In config.py::MainThread(2280), line 123 in run_checks: Using i18n: config/i18n/en.json
+[0.9124264717102051] 2018-04-23 10:20:24,116 - DEBUG - musicbot.json | In json.py::MainThread(2280), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.1455466747283936] 2018-04-23 10:20:24,349 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 227 in _setup_logging: Set logging level to INFO
+[1.1455466747283936] 2018-04-23 10:20:24,349 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 84 in __init__: Starting MusicBot 1.9.7
+[1.1460478305816650] 2018-04-23 10:20:24,350 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[7.1054501533508301] 2018-04-23 10:20:30,309 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 1074 in on_ready: Connection established, ready to go.
+[7.1059520244598389] 2018-04-23 10:20:30,310 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 339 in _cache_app_info: Caching app info
+[7.2745995521545410] 2018-04-23 10:20:30,478 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[7.2760801315307617] 2018-04-23 10:20:30,480 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 905 in _scheck_server_permissions: Checking server permissions
+[7.2760801315307617] 2018-04-23 10:20:30,480 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[7.2760801315307617] 2018-04-23 10:20:30,480 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 913 in _scheck_configs: Validating config
+[7.2760801315307617] 2018-04-23 10:20:30,480 - DEBUG - musicbot.config | In config.py::MainThread(2280), line 212 in async_validate: Validating options...
+[7.2765820026397705] 2018-04-23 10:20:30,480 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 916 in _scheck_configs: Validating permissions config
+[7.2765820026397705] 2018-04-23 10:20:30,480 - DEBUG - musicbot.permissions | In permissions.py::MainThread(2280), line 64 in async_validate: Validating permissions...
+[7.2765820026397705] 2018-04-23 10:20:30,480 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 1091 in on_ready: Connected: 438016773107744778/Joe Jammer#1974
+[7.2775840759277344] 2018-04-23 10:20:30,481 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 1099 in on_ready: Owner:     256589730680930316/Javanese851#9358
+
+[7.2775840759277344] 2018-04-23 10:20:30,481 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 1102 in on_ready: Server List:
+[7.2780854701995850] 2018-04-23 10:20:30,482 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 1105 in on_ready:  - Javanese Channel
+[7.2785868644714355] 2018-04-23 10:20:30,482 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 1151 in on_ready: Not bound to any text channels
+[7.2795898914337158] 2018-04-23 10:20:30,483 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 1177 in on_ready: Not autojoining any voice channels
+[7.2800915241241455] 2018-04-23 10:20:30,484 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 272 in _join_startup_channels: Found owner in "Music"
+[7.2800915241241455] 2018-04-23 10:20:30,484 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 281 in _join_startup_channels: Attempting to join Javanese Channel/Music
+[7.2805922031402588] 2018-04-23 10:20:30,484 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 452 in get_voice_client: Connection attempt 1 to Music
+[7.2810938358306885] 2018-04-23 10:20:30,485 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[7.2810938358306885] 2018-04-23 10:20:30,485 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[7.2815947532653809] 2018-04-23 10:20:30,485 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[7.4578382968902588] 2018-04-23 10:20:30,661 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 438016773107744778/Joe Jammer#1974 on Javanese Channel/Music -> [JOIN, CONNECT]
+[7.4583392143249512] 2018-04-23 10:20:30,662 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2949 in on_voice_state_update: 438016773107744778/Joe Jammer#1974 has joined Javanese Channel/Music
+[7.4591453075408936] 2018-04-23 10:20:30,663 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[7.5218749046325684] 2018-04-23 10:20:30,726 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[8.2023046016693115] 2018-04-23 10:20:31,406 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[8.2028057575225830] 2018-04-23 10:20:31,406 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 478 in get_voice_client: Connected in 0.9s
+[8.2028057575225830] 2018-04-23 10:20:31,406 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 479 in get_voice_client: Connected to Javanese Channel/Music
+[8.2053117752075195] 2018-04-23 10:20:31,409 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 849 in deserialize_queue: Deserializing queue for 297023768457510913
+[8.3060801029205322] 2018-04-23 10:20:31,510 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 570 in get_player: Created player via deserialization for server 297023768457510913 with 1 entries
+[8.3060801029205322] 2018-04-23 10:20:31,510 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 297 in _join_startup_channels: Joined Javanese Channel/Music
+[8.3065810203552246] 2018-04-23 10:20:31,510 - VOICEDEBUG - musicbot.player | In player.py::MainThread(2280), line 373 in websocket_check: Starting websocket check loop for Javanese Channel
+[8.3065810203552246] 2018-04-23 10:20:31,510 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for audio_cache\youtube-UIJRVG8yD1M-She_s_Amazing_-_Love_and_Theft_FULL_SONG.webm
+[8.3065810203552246] 2018-04-23 10:20:31,510 - FFMPEG - musicbot.player | In player.py::MainThread(2280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-UIJRVG8yD1M-She_s_Amazing_-_Love_and_Theft_FULL_SONG.webm
+[8.3110928535461426] 2018-04-23 10:20:31,515 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[27.3978176116943359] 2018-04-23 10:20:50,601 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 256589730680930316/Javanese851#9358 on Javanese Channel/Public Voice 3 -> [LEAVE, MOVE]
+[27.3978176116943359] 2018-04-23 10:20:50,601 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2949 in on_voice_state_update: 256589730680930316/Javanese851#9358 has left Javanese Channel/Music
+[27.3988199234008789] 2018-04-23 10:20:50,602 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2987 in on_voice_state_update: Pausing in Javanese Channel/Music (empty channel)
+[74.7544381618499756] 2018-04-23 10:21:37,958 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !play Weekend
+[75.6363744735717773] 2018-04-23 10:21:38,840 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Weekend', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Weekend', 'webpage_url_basename': 'Weekend', 'extractor_key': 'Generic'}
+[85.9533641338348389] 2018-04-23 10:21:49,157 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[85.9548690319061279] 2018-04-23 10:21:49,159 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[85.9603834152221680] 2018-04-23 10:21:49,164 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=PALMMqZLAQk
+[90.7286086082458496] 2018-04-23 10:21:53,932 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=PALMMqZLAQk
+[119.5859522819519043] 2018-04-23 10:22:22,790 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !queue
+[166.2059996128082275] 2018-04-23 10:23:09,410 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !play The Weekend feeling
+[166.3749151229858398] 2018-04-23 10:23:09,579 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:The Weekend feeling', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'The Weekend feeling', 'webpage_url_basename': 'The Weekend feeling', 'extractor_key': 'Generic'}
+[173.5569219589233398] 2018-04-23 10:23:16,761 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 256589730680930316/Javanese851#9358 on Javanese Channel/Music -> [JOIN, MOVE]
+[173.5574231147766113] 2018-04-23 10:23:16,761 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2949 in on_voice_state_update: 256589730680930316/Javanese851#9358 has joined Javanese Channel/Music
+[173.5599310398101807] 2018-04-23 10:23:16,764 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2977 in on_voice_state_update: Unpausing in Javanese Channel/Music
+[177.2423844337463379] 2018-04-23 10:23:20,446 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[185.0938289165496826] 2018-04-23 10:23:28,297 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !skip
+[185.1043581962585449] 2018-04-23 10:23:28,308 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[185.1048583984375000] 2018-04-23 10:23:28,309 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for audio_cache\youtube-PALMMqZLAQk-SZA_-_The_Weekend_Audio.webm
+[185.1048583984375000] 2018-04-23 10:23:28,309 - FFMPEG - musicbot.player | In player.py::MainThread(2280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-PALMMqZLAQk-SZA_-_The_Weekend_Audio.webm
+[185.1083695888519287] 2018-04-23 10:23:28,312 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[185.1138825416564941] 2018-04-23 10:23:28,318 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=qFLhGq0060w
+[185.1219031810760498] 2018-04-23 10:23:28,326 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[189.6785416603088379] 2018-04-23 10:23:32,882 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !skip
+[189.6895716190338135] 2018-04-23 10:23:32,893 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[189.6900720596313477] 2018-04-23 10:23:32,894 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[189.8273835182189941] 2018-04-23 10:23:33,031 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=qFLhGq0060w
+[189.8308930397033691] 2018-04-23 10:23:33,035 - FFMPEG - musicbot.player | In player.py::MainThread(2280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-qFLhGq0060w-The_Weeknd_-_I_Feel_It_Coming_ft._Daft_Punk.webm
+[189.8344020843505859] 2018-04-23 10:23:33,038 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[193.1637451648712158] 2018-04-23 10:23:36,367 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[193.1642467975616455] 2018-04-23 10:23:36,368 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 220 in _really_download: Download started: https://youtube.com/watch?v=njckdova0bY
+[197.1080539226531982] 2018-04-23 10:23:40,312 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 230 in _really_download: Download complete: https://youtube.com/watch?v=njckdova0bY
+[444.3576118946075439] 2018-04-23 10:27:47,561 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 256589730680930316/Javanese851#9358 on Javanese Channel/Music -> [MUTE]
+[466.3367404937744141] 2018-04-23 10:28:09,540 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !queue
+[475.4101910591125488] 2018-04-23 10:28:18,614 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !queue
+[487.4353466033935547] 2018-04-23 10:28:30,639 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for audio_cache\youtube-njckdova0bY-The_Eden_Project_-_Kairos.webm
+[487.4358406066894531] 2018-04-23 10:28:30,639 - FFMPEG - musicbot.player | In player.py::MainThread(2280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-njckdova0bY-The_Eden_Project_-_Kairos.webm
+[487.4403522014617920] 2018-04-23 10:28:30,644 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[487.4453654289245605] 2018-04-23 10:28:30,649 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[493.4376752376556396] 2018-04-23 10:28:36,641 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !queue
+[579.9760537147521973] 2018-04-23 10:30:03,180 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !skip
+[584.7276887893676758] 2018-04-23 10:30:07,931 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[584.7281906604766846] 2018-04-23 10:30:07,932 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 220 in _really_download: Download started: https://youtube.com/watch?v=_L2vJEb6lVE
+[586.7313945293426514] 2018-04-23 10:30:09,935 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[588.8781602382659912] 2018-04-23 10:30:12,082 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 230 in _really_download: Download complete: https://youtube.com/watch?v=_L2vJEb6lVE
+[588.8807046413421631] 2018-04-23 10:30:12,084 - FFMPEG - musicbot.player | In player.py::MainThread(2280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-_L2vJEb6lVE-SchoolBoy_Q_-_Collard_Greens_Explicit_ft._Kendrick_Lamar.webm
+[588.8841762542724609] 2018-04-23 10:30:12,088 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[596.9521379470825195] 2018-04-23 10:30:20,156 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !queue
+[606.6087231636047363] 2018-04-23 10:30:29,812 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !skip
+[609.9536609649658203] 2018-04-23 10:30:33,157 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[609.9541287422180176] 2018-04-23 10:30:33,158 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 220 in _really_download: Download started: https://youtube.com/watch?v=NnkLcBY8o1I
+[611.9559471607208252] 2018-04-23 10:30:35,160 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[613.9463012218475342] 2018-04-23 10:30:37,150 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 230 in _really_download: Download complete: https://youtube.com/watch?v=NnkLcBY8o1I
+[613.9513139724731445] 2018-04-23 10:30:37,155 - FFMPEG - musicbot.player | In player.py::MainThread(2280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-NnkLcBY8o1I-Hilltop_Hoods_-_The_Certificate_Lyrics.m4a
+[613.9558260440826416] 2018-04-23 10:30:37,159 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[630.0733790397644043] 2018-04-23 10:30:53,277 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !play the weekend feel it
+[630.2311227321624756] 2018-04-23 10:30:53,435 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:the weekend feel it', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'the weekend feel it', 'webpage_url_basename': 'the weekend feel it', 'extractor_key': 'Generic'}
+[639.9908912181854248] 2018-04-23 10:31:03,195 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !skip
+[640.3984589576721191] 2018-04-23 10:31:03,602 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[640.3994615077972412] 2018-04-23 10:31:03,603 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[640.4039740562438965] 2018-04-23 10:31:03,608 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 196 in _download: Download cached: https://www.youtube.com/watch?v=qFLhGq0060w
+[642.4089705944061279] 2018-04-23 10:31:05,613 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for audio_cache\youtube-qFLhGq0060w-The_Weeknd_-_I_Feel_It_Coming_ft._Daft_Punk.webm
+[642.4109759330749512] 2018-04-23 10:31:05,615 - FFMPEG - musicbot.player | In player.py::MainThread(2280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-qFLhGq0060w-The_Weeknd_-_I_Feel_It_Coming_ft._Daft_Punk.webm
+[642.4169926643371582] 2018-04-23 10:31:05,621 - DEBUG - musicbot.bot | In bot.py::MainThread(2280), line 825 in serialize_queue: Serializing queue for 297023768457510913
+[642.6509354114532471] 2018-04-23 10:31:05,855 - WARNING - musicbot.bot | In bot.py::MainThread(2280), line 982 in safe_edit_message: Cannot edit message "Now playing in `Music`: `The Weeknd - I Feel It Coming ft. Daft Punk` added by `Javanese851`", message not found
+[642.6529409885406494] 2018-04-23 10:31:05,857 - WARNING - musicbot.bot | In bot.py::MainThread(2280), line 984 in safe_edit_message: Sending message instead
+[644.7722940444946289] 2018-04-23 10:31:07,976 - DEBUG - musicbot.entry | In entry.py::MainThread(2280), line 54 in get_ready_future: Created future for None
+[644.7728278636932373] 2018-04-23 10:31:07,976 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 220 in _really_download: Download started: https://youtube.com/watch?v=n3uQghHbcaQ
+[648.8116292953491211] 2018-04-23 10:31:12,015 - INFO - musicbot.entry | In entry.py::MainThread(2280), line 230 in _really_download: Download complete: https://youtube.com/watch?v=n3uQghHbcaQ
+[682.7906239032745361] 2018-04-23 10:31:45,994 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !summon
+[683.3775615692138672] 2018-04-23 10:31:46,581 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[693.1047079563140869] 2018-04-23 10:31:56,308 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 256589730680930316/Javanese851#9358 on Javanese Channel/Music 2 -> [LEAVE, MOVE]
+[693.1047079563140869] 2018-04-23 10:31:56,308 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2949 in on_voice_state_update: 256589730680930316/Javanese851#9358 has left Javanese Channel/Music
+[693.1057109832763672] 2018-04-23 10:31:56,309 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2987 in on_voice_state_update: Pausing in Javanese Channel/Music (empty channel)
+[700.7689068317413330] 2018-04-23 10:32:03,973 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !summon
+[700.9449183940887451] 2018-04-23 10:32:04,149 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 438016773107744778/Joe Jammer#1974 on Javanese Channel/Music 2 -> [JOIN, MOVE]
+[700.9449183940887451] 2018-04-23 10:32:04,149 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2949 in on_voice_state_update: 438016773107744778/Joe Jammer#1974 has joined Javanese Channel/Music 2
+[700.9459185600280762] 2018-04-23 10:32:04,150 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2998 in on_voice_state_update: Unpausing in Javanese Channel/Music 2
+[707.1294682025909424] 2018-04-23 10:32:10,333 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 256589730680930316/Javanese851#9358 on Javanese Channel/Music -> [LEAVE, MOVE]
+[707.1299693584442139] 2018-04-23 10:32:10,334 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2949 in on_voice_state_update: 256589730680930316/Javanese851#9358 has left Javanese Channel/Music 2
+[707.1359848976135254] 2018-04-23 10:32:10,340 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2987 in on_voice_state_update: Pausing in Javanese Channel/Music 2 (empty channel)
+[712.0221185684204102] 2018-04-23 10:32:15,226 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2734 in on_message: 256589730680930316/Javanese851#9358: !summon
+[712.1907589435577393] 2018-04-23 10:32:15,394 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 438016773107744778/Joe Jammer#1974 on Javanese Channel/Music -> [JOIN, MOVE]
+[712.1907589435577393] 2018-04-23 10:32:15,394 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2949 in on_voice_state_update: 438016773107744778/Joe Jammer#1974 has joined Javanese Channel/Music
+[712.1917595863342285] 2018-04-23 10:32:15,395 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2998 in on_voice_state_update: Unpausing in Javanese Channel/Music
+[782.4024012088775635] 2018-04-23 10:33:25,606 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 256589730680930316/Javanese851#9358 on Javanese Channel/Music 2 -> [LEAVE, MOVE]
+[782.4029009342193604] 2018-04-23 10:33:25,607 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2949 in on_voice_state_update: 256589730680930316/Javanese851#9358 has left Javanese Channel/Music
+[782.4064106941223145] 2018-04-23 10:33:25,610 - INFO - musicbot.bot | In bot.py::MainThread(2280), line 2987 in on_voice_state_update: Pausing in Javanese Channel/Music (empty channel)
+[784.7705380916595459] 2018-04-23 10:33:27,974 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2280), line 2938 in on_voice_state_update: Voice state update for 256589730680930316/Javanese851#9358 on Javanese Channel/Music 2 -> [DISCONNECT]
